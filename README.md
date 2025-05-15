@@ -1,30 +1,38 @@
-# 24hr story feature
+# 24hr Story Feature
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A client-side Instagram-like stories feature that allows users to post ephemeral content that disappears after 24 hours.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/aqilaqira8-gmailcoms-projects/v0-24hr-story-feature)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/tinEBwKVYHo)
+![24hr Story Feature](https://hebbkx1anhila5yf.public.blob.vercel-storage.com/stories-project-JEp0dz82Qz62iTp1IGcznkeHdDgQLb.png)
 
-## Overview
+## Features
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+- **Story List Display**: Horizontal scrollable list of story circles with a plus button to add new stories
+- **Image Upload**: Upload and display images as stories
+- **Local Storage**: Stories are stored in the browser's localStorage
+- **24-hour Expiration**: Stories automatically disappear after 24 hours
+- **Story Viewer**: Full-screen story viewer with progress bars
+- **Navigation**: Swipe or click to navigate between stories
+- **Responsive Design**: Works on mobile and desktop devices
+- **Image Resizing**: Images are automatically resized to a maximum of 1080px x 1920px
 
-## Deployment
+## Technologies Used
 
-Your project is live at:
+- Next.js (App Router)
+- React
+- TypeScript
+- Tailwind CSS
+- react-swipeable (for swipe gestures)
+- HTML5 Canvas API (for image resizing)
+- localStorage API (for client-side storage)
 
-**[https://vercel.com/aqilaqira8-gmailcoms-projects/v0-24hr-story-feature](https://vercel.com/aqilaqira8-gmailcoms-projects/v0-24hr-story-feature)**
+## Installation
 
-## Build your app
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/24hr-story-feature.git
+   cd 24hr-story-feature
 
-Continue building your app on:
-
-**[https://v0.dev/chat/projects/tinEBwKVYHo](https://v0.dev/chat/projects/tinEBwKVYHo)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/24hr-story-feature.git
+   cd 24hr-story-feature
