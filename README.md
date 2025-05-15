@@ -32,7 +32,14 @@ A client-side Instagram-like stories feature that allows users to post ephemeral
    git clone https://github.com/yourusername/24hr-story-feature.git
    cd 24hr-story-feature
 
-1. Clone the repository:
+2. Install dependencies:
    ```bash
-   git clone https://github.com/yourusername/24hr-story-feature.git
-   cd 24hr-story-feature
+   npm install
+
+3. Run the development server :
+   ```bash
+   npm run dev
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+
+https://roadmap.sh/projects/stories-feature
